@@ -7,6 +7,8 @@ let colorePreferito = prompt("inserisci il tuo colore preferito")
 
 //formulo la password 
 let password = nome + cognome + colorePreferito + "21"
+// oppure 
+//let password = `${nome}${cognome}${colorePreferito}21`;
 
 // debug
 // console.log(nome)
