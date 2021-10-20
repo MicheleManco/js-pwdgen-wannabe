@@ -8,5 +8,11 @@ let colorePreferito = prompt("inserisci il tuo colore preferito")
 //formulo la password 
 let password = nome + cognome + colorePreferito + "21"
 
+// debug
+// console.log(nome)
+// console.log(cognome)
+// console.log(colorePreferito)
+// console.log(password)
+
 //scrivo la password
 document.getElementById("password").innerHTML = "Questa sarà la tua password: " + password
